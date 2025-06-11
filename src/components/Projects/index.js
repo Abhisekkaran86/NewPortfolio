@@ -12,7 +12,7 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
+          As a fresher, I have worked on several web development projects to build and enhance my skills. Below are some of the websites I developed during my learning journey.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
@@ -32,12 +32,12 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="backend app" onClick={() => setToggle('backend app')}>BACKEND APP'S</ToggleButton>
           }
-          <Divider />
-          {toggle === 'machine learning' ?
+          
+          {/* {toggle === 'machine learning' ?
             <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
             :
             <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-          }
+          } */}
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects
