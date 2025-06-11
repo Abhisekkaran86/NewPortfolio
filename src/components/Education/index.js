@@ -71,7 +71,7 @@ const TimelineSection = styled.div`
     justify-content: center;
     gap: 12px;
     @media (max-width: 660px) {
-        align-items: end;
+        align-items: start;
     }
 `;
 
@@ -87,18 +87,21 @@ const index = () => {
                 </Desc>
                 <TimelineSection>
                     <Timeline>
-                        {education.map((education,index) => (
-                            <TimelineItem >
-                                <TimelineContent sx={{ py: '12px', px: 2 }}>
-                                    <EducationCard education={education}/>
-                                </TimelineContent>
-                                <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length  && <TimelineConnector style={{ background: '#854CE6' }} />}
-                                </TimelineSeparator>
-                            </TimelineItem>
-                        ))}
-                    </Timeline>
+  {education.map((education, index) => (
+    <TimelineItem key={education.id}>
+      <TimelineSeparator>
+        <TimelineDot variant="outlined" color="secondary" />
+        {index !== education.length - 1 && (
+          <TimelineConnector style={{ background: '#854CE6' }} />
+        )}
+      </TimelineSeparator>
+      <TimelineContent sx={{ py: '12px', px: 2, minHeight: '80px' }}>
+        <EducationCard education={education} />
+      </TimelineContent>
+    </TimelineItem>
+  ))}
+</Timeline>
+
 
                 </TimelineSection>
             </Wrapper>
