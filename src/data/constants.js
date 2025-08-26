@@ -5,6 +5,7 @@ import silda from '../images/silda.jpg';
 import wbchseLogo from '../images/wbchse-logo.jpg';
 import wbbseLogo from '../images/wbbse-logo.jpg';
 import Weather from '../images/Weather.png';
+import jewelry from'../images/Weather.jpg';
 
 
 
@@ -194,18 +195,18 @@ export const projects = [
     github: "",
     webapp: "https://weatherly123.netlify.app",
   },
-  // {
-  //   id: 12,
-  //   title: "Railway Ticket Booking System",
-  //   date: "Apr 2024 - May 2024",
-  //   description:
-  //     "Developed a secure and efficient Railway Ticket Booking System using Java Spring Boot and MySQL. Integrated JWT for API authentication and used stored procedures for optimized ticket operations. Includes role-based access for admin and users.",
-  //   image: rwbsLogo, // Replace with actual image URL
-  //   tags: ["Java", "Spring Boot", "MySQL", "JWT", "Stored Procedures"],
-  //   category: "backend app",
-  //   github: "https://github.com/CoderAvijit/TrainBookingSystem", // Replace with actual link
-  //   webapp: "#", // Replace with actual URL
-  // },
+  {
+     id: 12,
+  title: "Jewellery_Shopping_App",
+  date: "Jul 2025 - Aug 2025",
+  description:
+    "Developed a full-stack Jewellery Shopping web application using the MERN stack (MongoDB, Express.js, React.js, Node.js). Features include product browsing, cart management, user authentication, search & filtering, and an admin dashboard for product management. Future scope includes payment integration and order tracking.",
+  image:jewelry, 
+  tags: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS"],
+  category: "web app",
+  github: "https://github.com/Abhisekkaran86/JewelleryShopping",
+  webapp: "",
+  },
   // {
   //   id: 13,
   //   title: "Electra-Mate",
