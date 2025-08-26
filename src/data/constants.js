@@ -202,7 +202,7 @@ export const projects = [
   description:
     "Developed a full-stack Jewellery Shopping web application using the MERN stack (MongoDB, Express.js, React.js, Node.js). Features include product browsing, cart management, user authentication, search & filtering, and an admin dashboard for product management. Future scope includes payment integration and order tracking.",
   image:jewelry, 
-  tags: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS"],
+  tags: ["MongoDB", "Express.js", "React.js", "Node.js", "CSS"],
   category: "web app",
   github: "https://github.com/Abhisekkaran86/JewelleryShopping",
   webapp: "",
