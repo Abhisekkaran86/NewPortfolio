@@ -196,7 +196,7 @@ export const projects = [
     webapp: "https://weatherly123.netlify.app",
   },
   {
-     id: 12,
+   id: 12,
   title: "Jewellery_Shopping_App",
   date: "Jul 2025 - Aug 2025",
   description:
