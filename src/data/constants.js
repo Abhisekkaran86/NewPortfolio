@@ -185,7 +185,7 @@ export const projects = [
   // ... existing projects
    {
     id: 11,
-    title: "Weather_App123",
+    title: "Weather_App",
     date: "Jan 2025 - Jan 2025",
     description:
      "Developed a responsive Weather Application using React.js, HTML, CSS, and JavaScript. Integrated real-time weather data via API, with dynamic UI updates and animated background effects. Features include city-based search, detailed weather metrics, and optimized layout for all screen sizes.",
