@@ -185,7 +185,7 @@ export const projects = [
   // ... existing projects
    {
     id: 11,
-    title: "Weather_App",
+    title: "Weather_App123",
     date: "Jan 2025 - Jan 2025",
     description:
      "Developed a responsive Weather Application using React.js, HTML, CSS, and JavaScript. Integrated real-time weather data via API, with dynamic UI updates and animated background effects. Features include city-based search, detailed weather metrics, and optimized layout for all screen sizes.",
@@ -207,25 +207,25 @@ export const projects = [
   github: "https://github.com/Abhisekkaran86/JewelleryShopping",
   webapp: "",
   },
-  {
-    id: 13,
-    title: "Electra-Mate",
-    date: "Jun 2024 - Aug 2024",
-    description:
-      "Electra-Mate is an electronic service request platform built with Spring Boot microservices, React JS, and MySQL. It enables users to submit repair requests, and automates email notifications via Google OAuth 2.0. Supports both user and service provider roles.",
-    image: electraMateLogo, // Replace with actual image URL
-    tags: [
-      "Java",
-      "Spring Boot",
-      "Microservices",
-      "React JS",
-      "MySQL",
-      "Google OAuth 2.0",
-    ],
-    category: "web app",
-    github: "https://github.com/CoderAvijit/electra-mate", // Replace with actual link
-    webapp: "https://riju-electronics.vercel.app/", // Replace with actual URL
-  },
+  // {
+  //   id: 13,
+  //   title: "Electra-Mate",
+  //   date: "Jun 2024 - Aug 2024",
+  //   description:
+  //     "Electra-Mate is an electronic service request platform built with Spring Boot microservices, React JS, and MySQL. It enables users to submit repair requests, and automates email notifications via Google OAuth 2.0. Supports both user and service provider roles.",
+  //   image: electraMateLogo, // Replace with actual image URL
+  //   tags: [
+  //     "Java",
+  //     "Spring Boot",
+  //     "Microservices",
+  //     "React JS",
+  //     "MySQL",
+  //     "Google OAuth 2.0",
+  //   ],
+  //   category: "web app",
+  //   github: "https://github.com/CoderAvijit/electra-mate", // Replace with actual link
+  //   webapp: "https://riju-electronics.vercel.app/", // Replace with actual URL
+  // },
   //   {
   //   id: 14,
   //   title: "Echo - Voice-Activated Personal Assistant Bot",
