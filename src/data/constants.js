@@ -5,7 +5,7 @@ import silda from '../images/silda.jpg';
 import wbchseLogo from '../images/wbchse-logo.jpg';
 import wbbseLogo from '../images/wbbse-logo.jpg';
 import Weather from '../images/Weather.png';
-import jewelry from'../images/Weather.jpg';
+import jewelry from'../images/jewelry.jpg';
 
 
 
