@@ -6,6 +6,7 @@ import wbchseLogo from '../images/wbchse-logo.jpg';
 import wbbseLogo from '../images/wbbse-logo.jpg';
 import Weather from '../images/Weather.png';
 import jewelry from'../images/jewelry.jpg';
+import ecommerce from'../images/ecommerce.png';
 
 
 
@@ -207,25 +208,18 @@ export const projects = [
   github: "https://github.com/Abhisekkaran86/JewelleryShopping",
   webapp: "",
   },
-  // {
-  //   id: 13,
-  //   title: "Electra-Mate",
-  //   date: "Jun 2024 - Aug 2024",
-  //   description:
-  //     "Electra-Mate is an electronic service request platform built with Spring Boot microservices, React JS, and MySQL. It enables users to submit repair requests, and automates email notifications via Google OAuth 2.0. Supports both user and service provider roles.",
-  //   image: electraMateLogo, // Replace with actual image URL
-  //   tags: [
-  //     "Java",
-  //     "Spring Boot",
-  //     "Microservices",
-  //     "React JS",
-  //     "MySQL",
-  //     "Google OAuth 2.0",
-  //   ],
-  //   category: "web app",
-  //   github: "https://github.com/CoderAvijit/electra-mate", // Replace with actual link
-  //   webapp: "https://riju-electronics.vercel.app/", // Replace with actual URL
-  // },
+  {
+  id: 12,
+  title: "Modern_Ecommerce_UI_React",
+  date: "Jul 2025 - Aug 2025",
+  description:
+    "Built a modern and fully responsive E-commerce user interface using React.js and Tailwind CSS. Developed reusable components for product cards, product detail pages, navigation bar, and cart layout. Implemented dynamic routing with React Router and optimized layouts for seamless performance across all screen sizes. Emphasized scalable component architecture and clean design principles.",
+  image: ecommerce,
+  tags: ["React.js", "Tailwind CSS", "JavaScript", "Responsive UI", "React Router"],
+  category: "web app",
+  github: "https://github.com/yourusername/ecommerce-react",
+  webapp: ""
+}
   //   {
   //   id: 14,
   //   title: "Echo - Voice-Activated Personal Assistant Bot",
