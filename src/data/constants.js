@@ -217,8 +217,8 @@ export const projects = [
   image: ecommerce,
   tags: ["React.js", "Tailwind CSS", "JavaScript", "Responsive UI", "React Router"],
   category: "web app",
-  github: "https://github.com/yourusername/ecommerce-react",
-  webapp: ""
+  github: "https://github.com/Abhisekkaran86/my-store-e-commerce",
+  webapp: "https://myshopes.netlify.app/"
 }
   //   {
   //   id: 14,
