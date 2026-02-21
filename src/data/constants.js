@@ -211,7 +211,7 @@ export const projects = [
   {
   id: 12,
   title: "Modern_Ecommerce_UI_React",
-  date: "Jul 2025 - Aug 2025",
+  date: "Jan 2026 - Feb 202",
   description:
     "Built a modern and fully responsive E-commerce user interface using React.js and Tailwind CSS. Developed reusable components for product cards, product detail pages, navigation bar, and cart layout. Implemented dynamic routing with React Router and optimized layouts for seamless performance across all screen sizes. Emphasized scalable component architecture and clean design principles.",
   image: ecommerce,
